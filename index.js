@@ -23,7 +23,7 @@ app.get("/", (req, res) => {
   res.send("hello from trip camp");
 });
 
-app.listen(4000, () => {
+app.listen("//github.com", () => {
   console.log("serving port 4000");
 });
 
